@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80227bd6a4879e2f9859c63424756916 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80227bd6a4879e2f9859c63424756916" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80227bd6a4879e2f9859c63424756916 = L.map(
+                "map_80227bd6a4879e2f9859c63424756916",
+                {
+                    center: [44.5167799, -68.3549273],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_84c269b5cfbd43116159bba88adc0881 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_84c269b5cfbd43116159bba88adc0881.addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var marker_13cb34fbf974aceaee3004d3f6f5c889 = L.marker(
+                [44.5167799, -68.3549273],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_449e76cee9dc23a27c300fbd12f9a35a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41efd6892a060696504bfe5450f154af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_258adde6015aa2884540debcacdd80c3 = $(`<div id="html_258adde6015aa2884540debcacdd80c3" style="width: 100.0%; height: 100.0%;">Search Location</div>`)[0];
+                popup_41efd6892a060696504bfe5450f154af.setContent(html_258adde6015aa2884540debcacdd80c3);
+            
+        
+
+        marker_13cb34fbf974aceaee3004d3f6f5c889.bindPopup(popup_41efd6892a060696504bfe5450f154af)
+        ;
+
+        
+    
+    
+                marker_13cb34fbf974aceaee3004d3f6f5c889.setIcon(icon_449e76cee9dc23a27c300fbd12f9a35a);
+            
+    
+            var marker_d0f044c9c364fc5e394ce71731b886c3 = L.marker(
+                [44.5464904, -68.4162288],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_241fdd0da0db897ee7b4ddd3656bf9a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8044b1e57b2608267198e9e760eb1bff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ed0c5d6d9e984ceb4c16e4fbca02f06 = $(`<div id="html_6ed0c5d6d9e984ceb4c16e4fbca02f06" style="width: 100.0%; height: 100.0%;">Maine Coast Memorial Hospital</div>`)[0];
+                popup_8044b1e57b2608267198e9e760eb1bff.setContent(html_6ed0c5d6d9e984ceb4c16e4fbca02f06);
+            
+        
+
+        marker_d0f044c9c364fc5e394ce71731b886c3.bindPopup(popup_8044b1e57b2608267198e9e760eb1bff)
+        ;
+
+        
+    
+    
+                marker_d0f044c9c364fc5e394ce71731b886c3.setIcon(icon_241fdd0da0db897ee7b4ddd3656bf9a6);
+            
+    
+            var marker_828fdb335c0aefa987983a03f7d26f15 = L.marker(
+                [44.385223, -68.2019672],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_7f7f6840cfa690be2d90c59e2dbcd9de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03408147287a57bfe51b6c54bb956e2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44929d47cd42b74fc6afe7d3c17a0489 = $(`<div id="html_44929d47cd42b74fc6afe7d3c17a0489" style="width: 100.0%; height: 100.0%;">Mount Desert Island Hospital</div>`)[0];
+                popup_03408147287a57bfe51b6c54bb956e2a.setContent(html_44929d47cd42b74fc6afe7d3c17a0489);
+            
+        
+
+        marker_828fdb335c0aefa987983a03f7d26f15.bindPopup(popup_03408147287a57bfe51b6c54bb956e2a)
+        ;
+
+        
+    
+    
+                marker_828fdb335c0aefa987983a03f7d26f15.setIcon(icon_7f7f6840cfa690be2d90c59e2dbcd9de);
+            
+    
+            var marker_2bd64570de148c795531b70a358bdd13 = L.marker(
+                [44.3854078, -68.2023096],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_476be6197ab54e6f395695485c23e36b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b87f299796596b4335c0d1b78561c595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e945721f72ef89972bf2925f6da999b = $(`<div id="html_1e945721f72ef89972bf2925f6da999b" style="width: 100.0%; height: 100.0%;">Hospital</div>`)[0];
+                popup_b87f299796596b4335c0d1b78561c595.setContent(html_1e945721f72ef89972bf2925f6da999b);
+            
+        
+
+        marker_2bd64570de148c795531b70a358bdd13.bindPopup(popup_b87f299796596b4335c0d1b78561c595)
+        ;
+
+        
+    
+    
+                marker_2bd64570de148c795531b70a358bdd13.setIcon(icon_476be6197ab54e6f395695485c23e36b);
+            
+    
+            var marker_1318d9ec7f2668ff8f6184bab5ea707b = L.marker(
+                [44.4116008, -68.587395],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_2262ca591725bd979108dc5c92469753 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc907da3420745643d575c715d4d56dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73b697602a88c1448cf6bc54aea9899c = $(`<div id="html_73b697602a88c1448cf6bc54aea9899c" style="width: 100.0%; height: 100.0%;">Blue Hill Memorial Hospital</div>`)[0];
+                popup_dc907da3420745643d575c715d4d56dd.setContent(html_73b697602a88c1448cf6bc54aea9899c);
+            
+        
+
+        marker_1318d9ec7f2668ff8f6184bab5ea707b.bindPopup(popup_dc907da3420745643d575c715d4d56dd)
+        ;
+
+        
+    
+    
+                marker_1318d9ec7f2668ff8f6184bab5ea707b.setIcon(icon_2262ca591725bd979108dc5c92469753);
+            
+    
+            var marker_fdb6f7617289a59345ebf861eee7fd57 = L.marker(
+                [44.5902024, -68.4335906],
+                {
+}
+            ).addTo(map_80227bd6a4879e2f9859c63424756916);
+        
+    
+            var icon_c84ed06518ea1e69498470e3d578373b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4754ebd387b3e8a78fe4d494b99ff156 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78676f9fb4f42b9a7fa55f56e38a263c = $(`<div id="html_78676f9fb4f42b9a7fa55f56e38a263c" style="width: 100.0%; height: 100.0%;">KidsPeace National Centers Of New England</div>`)[0];
+                popup_4754ebd387b3e8a78fe4d494b99ff156.setContent(html_78676f9fb4f42b9a7fa55f56e38a263c);
+            
+        
+
+        marker_fdb6f7617289a59345ebf861eee7fd57.bindPopup(popup_4754ebd387b3e8a78fe4d494b99ff156)
+        ;
+
+        
+    
+    
+                marker_fdb6f7617289a59345ebf861eee7fd57.setIcon(icon_c84ed06518ea1e69498470e3d578373b);
+            
+</script>
+</html>
