@@ -1,4 +1,4 @@
-# 🏥 Hospital & Clinic Finder
+# Hospital & Clinic Finder
 
 A desktop application for finding nearby hospitals and clinics, built with Python.
 
@@ -78,15 +78,6 @@ hospital-clinic-finder/
 ├── map.html        # Auto-generated map (opens in browser)
 └── README.md
 ```
-
----
-
-## Author
-
-**Max** — Computer Engineering, B.S.  
-[GitHub](https://github.com/YOUR_USERNAME)
-
----
 
 ## License
 
